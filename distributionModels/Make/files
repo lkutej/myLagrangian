@@ -1,0 +1,4 @@
+distributionModel/distributionModel.C
+distributionModel/distributionModelNew.C
+
+LIB = $(FOAM_USER_LIBBIN)/libmydistributionModels
