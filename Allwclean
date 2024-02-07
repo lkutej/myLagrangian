@@ -1,0 +1,16 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # Run from this directory
+
+wclean libso basic
+wclean coalCombustion
+wclean distributionModels
+wclean DSMC
+wclean intermediate
+wclean solidParticle
+wclean spray
+wclean turbulence
+cd molecularDynamics
+./Allwclean
+cd ..
+
+#------------------------------------------------------------------------------
